@@ -8,7 +8,9 @@ function App() {
   return (
     <main>
       <div className="container">
-        <h3>Questions and answers about login</h3>
+        <div className="title">
+          <h3>Questions and answers about login</h3>
+        </div>
         <section className="info">
           {questions.map((question) => {
             return (
